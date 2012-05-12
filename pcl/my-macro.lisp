@@ -23,6 +23,7 @@
 	 ((> ,var ,end))
        ,@body)))
 
+;;;this macro is do primes(dp) with print newline when print 'lines'
 (defmacro dp-with-newlines (number lines)
   (once-only (number lines)
     `(let ((n 0))
