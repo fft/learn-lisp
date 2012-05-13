@@ -69,3 +69,4 @@
 	   (when (funcall ,selector-fn row)
 	     ,@(make-settor-list clauses))
 	   row) *db*)))
+
