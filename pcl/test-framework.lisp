@@ -1,4 +1,4 @@
-;;;;test framework from 'practical common lisp'
+;;; test framework from 'practical common lisp'
 (defvar *test-name* nil)
 
 (defmacro with-gensyms ((&rest names) &body body)
